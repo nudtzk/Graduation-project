@@ -17,7 +17,7 @@ all_data=[]
 for files in files:
     data_frame=pd.read_csv(input_path+files,index_col=0)
     all_data.append(data_frame)
-data= pd.concat(all_data, axis=0, ignore_index=True)
-data=data.dropna(axis=0,how = 'all')  
-data = data.reset_index(drop=False)
+data= pd.concat(all_data, axis=0, ignore_index=True)#拼接数据
+data=data.dropna(axis=0,how = 'all')  #删除空行
+data = data.reset_index(drop=False)#添加索引
 data.to_csv(output, index=False)
