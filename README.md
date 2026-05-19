@@ -1,8 +1,8 @@
 # Supervised Undergraduate Graduation Project: Shear-Wall Resistance Prediction
 
-This repository contains the dataset and Python workflow for an undergraduate graduation project supervised by **Kun Zhang**. The project uses LS-DYNA simulation data to train machine-learning models for predicting the resistance function of reinforced-concrete shear walls.
+This repository contains the dataset and Python workflow from **Chengrui Wang's 2020 undergraduate graduation project**, supervised by **Kun Zhang**. The project uses LS-DYNA simulation data to train machine-learning models for predicting the resistance function of reinforced-concrete shear walls.
 
-The original work focused on building a cleaned tabular dataset from LS-DYNA outputs, training a regression model, and comparing predicted resistance values against the simulation-derived response data.
+The work focused on building a cleaned tabular dataset from LS-DYNA outputs, training a regression model, and comparing predicted resistance values against the simulation-derived response data.
 
 ## Project Scope
 
@@ -97,8 +97,13 @@ python merge_data.py --input-dir raw_data --output all_data.csv
 
 ## Notes
 
-This repository is kept as a supervised undergraduate graduation-project record. It is not intended to be a polished production package; the goal is to preserve the data-processing and baseline modeling workflow in a reproducible form.
+This is a small 2020 undergraduate thesis project, not a production machine-learning package. I keep it here as a record of the supervised work and as a compact example of using LS-DYNA simulation data for structural-resistance prediction.
 
 ## Attribution
 
-The project was completed as an undergraduate graduation project under the supervision of Kun Zhang. The repository contains the project dataset and cleaned Python workflow used for model training and result visualization.
+- Student: Chengrui Wang
+- Supervisor: Kun Zhang
+- Project type: 2020 undergraduate graduation project
+- Topic: machine-learning prediction of reinforced-concrete shear-wall resistance functions from LS-DYNA simulation data
+
+The repository includes the project dataset, the cleaned Python workflow, and the original comparison figures used for model-training review.
